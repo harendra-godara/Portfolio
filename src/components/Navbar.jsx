@@ -24,10 +24,10 @@ function Navbar() {
       name: "Contact",
       path: "/Contact",
     },
-    // {
-    //   name: "Todo",
-    //   path: "/todo",
-    // },
+    {
+      name: "Todo",
+      path: "/todo",
+    },
   ];
 
   const [showMenu, setShowMenu] = useState(false);
