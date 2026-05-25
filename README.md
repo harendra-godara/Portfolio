@@ -156,9 +156,8 @@ All colors are CSS variables in `index.css`:
 
 **Harendra**
 
-- GitHub: [@username](https://github.com/username)
-- Email: your@email.com
-- LinkedIn: [linkedin.com/in/username](https://linkedin.com/in/username)
+- GitHub: [@harendra-godara](https://github.com/harendra-godara)
+- Email: harendragodara880@gmail.com
 
 ---
 

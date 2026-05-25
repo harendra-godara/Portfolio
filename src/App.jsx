@@ -7,7 +7,7 @@ import { ThemeContext } from "./context/ThemeContext";
 import Layout from "./components/Layout";
 import NotFound from "./components/NotFound";
 
-// import Todo from "./pages/Todo";
+import Todo from "./pages/Todo";
 
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -86,7 +86,7 @@ function App() {
             <Route path="contact" element={<Contact />} />
             <Route path="*" element={<NotFound />} />
 
-            {/* <Route path="todo" element={<Todo />} /> */}
+            <Route path="todo" element={<Todo />} />
           </Route>
         </Routes>
       </BrowserRouter>
