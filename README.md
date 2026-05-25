@@ -4,12 +4,6 @@ A modern, responsive **React portfolio website** with dark/light mode, project s
 
 ---
 
-## 📸 Preview
-
-> Live Demo: [your-portfolio-link.vercel.app](#) &nbsp;|&nbsp; GitHub: [github.com/username/portfolio](#)
-
----
-
 ## ✨ Features
 
 - 🌗 **Dark / Light Mode** — smooth theme toggle, persisted across pages
