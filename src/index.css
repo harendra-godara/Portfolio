@@ -708,7 +708,7 @@ nav ul li:hover {
 }
 
 /* ═══════════════════════════════════════════
-   CONTACT PAGE
+    CONTACT PAGE
 ═══════════════════════════════════════════ */
 .contact-page {
   display: flex;
@@ -780,7 +780,7 @@ nav ul li:hover {
 }
 
 /* ═══════════════════════════════════════════
-   ABOUT & PROJECTS PAGE
+    ABOUT & PROJECTS PAGE
 ═══════════════════════════════════════════ */
 .about-page,
 .projects-page {
@@ -826,7 +826,7 @@ nav ul li:hover {
 }
 
 /* ═══════════════════════════════════════════
-   TODO PAGE
+    TODO PAGE
 ═══════════════════════════════════════════ */
 .todo-page {
   display: flex;
@@ -914,7 +914,7 @@ nav ul li:hover {
 }
 
 /* ═══════════════════════════════════════════
-   MOBILE RESPONSIVE
+    MOBILE RESPONSIVE
 ═══════════════════════════════════════════ */
 @media (max-width: 640px) {
   nav {
@@ -1000,5 +1000,36 @@ nav ul li:hover {
     flex-wrap: wrap;
     justify-content: center;
     gap: 14px;
+  }
+  .contact-form,
+  .todo-container {
+    width: 100%;
+    padding: 28px 20px;
+  }
+
+  /* Todo responsive */
+  .todo-page {
+    padding: 24px 16px;
+    align-items: flex-start;
+  }
+
+  .todo-input {
+    flex-direction: column;
+  }
+
+  .todo-input input {
+    width: 100%;
+  }
+
+  .todo-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 12px 14px;
+  }
+
+  .todo-buttons {
+    width: 100%;
+    justify-content: flex-end;
   }
 }
